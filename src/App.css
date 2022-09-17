@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.form-control{
+  width: 70%;
+  height: 20%;  
+  margin:auto;
+  margin-top: 5%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo_container{
+  
+  width: auto;
+  margin: 0px 12%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.task-btn{
+  border: none;
+  width:10%;
+  height:8vh;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  width: 100%;
+  background: rgb(241,241,241);
+  background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(189,189,189,1) 50%, rgba(255,255,255,1) 100%);
+}
+form{
+  width: 100%;
+  margin-left: 27%;
+  margin-bottom: 40px;
+}
+.navbar-brand{
+  font-size: 22px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h4{  
+text-align: center;
+color: white;
+margin-left: 49%;
 }
+.icon-btn{
+border: none;
+height: 45px;
+width: 55px;
+margin-left: 1%;
+background-color: #ffffff;
+}
+.input-task{
+  min-width: 15rem;
+  width: 40vw;
+  background-color: #fcfbff;
+  border: none;
+  margin-left: 20%;
+  padding: 0.5rem 1rem;
+  align-self: center;
+  font-size: 18px;
+}
+.login-btn{
+  border-style: none;
+  border-radius: 10rem;
+  background-color: rgb(58, 179, 162);
+  color:aqua
+;
+}
+.addTask{
+  width: 40%;
+  height: 8vh;
+}
+.login-div{
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  margin: 35%;
+  padding: 2%;
+  margin-top: 10%;
+  background-color: rgb(226, 224, 224);
+  box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.btn-login{
+  width: 27%;
+  height: 20%;
+  margin-top: 5%;
+  border: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
